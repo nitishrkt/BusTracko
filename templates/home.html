@@ -78,7 +78,12 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/signup" name="registration">
+        <form action="/signup" name="registration" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="text"  name="username" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Username">
+            </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">First Name</label>
                 <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
