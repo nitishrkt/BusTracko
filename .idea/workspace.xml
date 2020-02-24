@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da511e8e-d6e1-4b5f-a174-550bf54dfad9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bustracko/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bustracko/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
@@ -74,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582476492494</updated>
       <workItem from="1582476496407" duration="1162000" />
-      <workItem from="1582551523471" duration="3209000" />
+      <workItem from="1582551523471" duration="6118000" />
     </task>
     <servers />
   </component>
