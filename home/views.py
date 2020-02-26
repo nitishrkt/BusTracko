@@ -32,7 +32,7 @@ def loginpage(request):
         user = authenticate(username = username, password = password)
         if user is not None:
             login(request, user)
-            return HttpResponse('Login successful')
+            return render(request,'location.html')
         else:
             return redirect('home')
 

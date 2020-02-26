@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da511e8e-d6e1-4b5f-a174-550bf54dfad9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bustracko/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bustracko/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bustracko/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bustracko/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
@@ -38,6 +40,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NITISH SHARMA\PycharmProjects\BusTracko\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="bustracko" type="Python.DjangoServer" factoryName="Django server">
@@ -75,7 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582476492494</updated>
       <workItem from="1582476496407" duration="1162000" />
-      <workItem from="1582551523471" duration="6118000" />
+      <workItem from="1582551523471" duration="10077000" />
+      <workItem from="1582601584865" duration="194000" />
+      <workItem from="1582602848609" duration="694000" />
+      <workItem from="1582634863409" duration="3240000" />
+      <workItem from="1582639897154" duration="4657000" />
+      <workItem from="1582705580308" duration="1670000" />
+      <workItem from="1582730935728" duration="707000" />
+      <workItem from="1582741306746" duration="5676000" />
     </task>
     <servers />
   </component>
@@ -83,9 +97,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582551528352">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582741328331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582551528352" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582741328331" />
   </component>
 </project>
