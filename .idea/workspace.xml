@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/format.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/location.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1582705580308" duration="1670000" />
       <workItem from="1582730935728" duration="707000" />
       <workItem from="1582741306746" duration="6017000" />
-      <workItem from="1582785822303" duration="882000" />
+      <workItem from="1582785822303" duration="2861000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,18 @@
   <div class="container">
     <div class="jumbotron mt-5">
         <h1 class="display-4">Choose your route</h1>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+     <form action="/signup" name="registration" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="from">From</label>
+                <input type="text"  name="from" class="form-control" id="from" aria-describedby="emailHelp" placeholder="from">
+            </div>
+            <div class="form-group">
+                <label for="to">To</label>
+                <input type="text"  name="to" class="form-control" id="to" aria-describedby="emailHelp" placeholder="to">
+            </div>
+         <button type="submit" class="btn btn-primary">Find Buses</button>
+     </form>
     </div>
   </div>
 {% endblock %}
