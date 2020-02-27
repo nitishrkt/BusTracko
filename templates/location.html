@@ -1,8 +1,7 @@
 {% extends 'format.html' %}
-{% block button %}Logout{% endblock %}
-{% block data-target %}#logout{% endblock %}
+{% block button %}<a href="home"><button class="btn btn-success">Logout</button></a>{% endblock %}
 {% block body %}
-    <a href="/logoutpage" id="logout"></a>
+
   <div class="container">
     <div class="jumbotron mt-5">
         <h1 class="display-4">Choose your route</h1>
