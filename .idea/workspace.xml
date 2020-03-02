@@ -4,8 +4,8 @@
     <list default="true" id="da511e8e-d6e1-4b5f-a174-550bf54dfad9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/format.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/format.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mappage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mappage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,11 @@
       <workItem from="1582705580308" duration="1670000" />
       <workItem from="1582730935728" duration="707000" />
       <workItem from="1582741306746" duration="6017000" />
-      <workItem from="1582785822303" duration="2861000" />
+      <workItem from="1582785822303" duration="2888000" />
+      <workItem from="1582789795245" duration="370000" />
+      <workItem from="1582794550212" duration="1045000" />
+      <workItem from="1582814868939" duration="1309000" />
+      <workItem from="1583084387350" duration="6000" />
     </task>
     <servers />
   </component>
@@ -95,9 +99,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582785824324">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1583084387359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582785824324" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583084387359" />
   </component>
 </project>
