@@ -1,11 +1,12 @@
 {% extends 'format.html' %}
+{% block title %} Select Route {% endblock %}
 {% block button %}<a href="home"><button class="btn btn-success">Logout</button></a>{% endblock %}
 {% block body %}
 
   <div class="container">
     <div class="jumbotron mt-5">
         <h1 class="display">Choose your route</h1>
-     <form action="/signup" name="registration" method="post">
+     <form action="/choosebus" name="registration" method="post">
             {% csrf_token %}
             <div class="form-group">
                 <label for="from">From</label>

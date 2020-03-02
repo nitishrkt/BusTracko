@@ -1,11 +1,11 @@
 {% extends 'format.html' %}
-
+{% block title %}Bus Tracko{% endblock %}
 {% block button %}<button class="btn btn-success" data-toggle="modal" data-target="#signUpModal" >SignUp</button>{% endblock %}
   {%  block body %}
 <!--    FORM-->
   <div class="container mt-4">
       <div class="jumbotron">
-        <form action="/loginpage" method="POST">
+        <form action="/selectroute" method="POST">
             {% csrf_token %}
           <div class="form-group">
             <label for="exampleInputEmail1">Username</label>

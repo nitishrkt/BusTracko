@@ -3,4 +3,8 @@ from django.http import HttpResponse
 from django.urls import reverse
 # Create your views here.
 def handlemap(request):
-    return render(request,'mappage2.html')
+    if request.method == 'POST':
+        from_place = request.POST['from']
+        to = request.POST['to']
+        print("from = "+from_place+" to = "+ to)
+        return render(request,'mappage.html')
