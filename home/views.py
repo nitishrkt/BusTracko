@@ -20,7 +20,7 @@ def signup(request):
             user.first_name = fname
             user.last_name = lname
             user.save()
-            return HttpResponse('successful')
+            return render(request, 'home.html')
         else:
             return render(request, 'home.html')
 
