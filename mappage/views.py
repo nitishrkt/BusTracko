@@ -7,4 +7,4 @@ def handlemap(request):
         from_place = request.POST['from']
         to = request.POST['to']
         print("from = "+from_place+" to = "+ to)
-        return render(request,'mappage.html')
+        return render(request,{'from':from_place, 'to':to},'mappage2.html')
