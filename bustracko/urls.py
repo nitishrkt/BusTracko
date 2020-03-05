@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
     path('choosebus', include('mappage.urls')),
-    path('location',include('location.urls'))
+    path('location',include('location.urls')),
+    path('signup/',include('home.urls'))
 ]
