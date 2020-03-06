@@ -4,13 +4,6 @@
     <list default="true" id="da511e8e-d6e1-4b5f-a174-550bf54dfad9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bustracko/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bustracko/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bustracko/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bustracko/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mappage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mappage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/format.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -103,7 +96,7 @@
       <workItem from="1583084387350" duration="6000" />
       <workItem from="1583420943710" duration="574000" />
       <workItem from="1583421545620" duration="1269000" />
-      <workItem from="1583488941669" duration="3655000" />
+      <workItem from="1583488941669" duration="6364000" />
     </task>
     <servers />
   </component>
