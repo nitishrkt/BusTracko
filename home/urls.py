@@ -22,6 +22,7 @@ urlpatterns = [
     path('home', views.home, name="backhome"),
     path('signup/', views.signup, name='signup'),
     path('selectroute', views.loginpage, name='login'),
-    path('logoutpage', views.logoutpage, name='logout')
+    path('logoutpage', views.logoutpage, name='logout'),
+    path('wallet',views.loginapp, name="loginapp")
 
 ]

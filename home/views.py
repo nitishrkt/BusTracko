@@ -42,3 +42,13 @@ def loginpage(request):
 def logoutpage(request):
     logout(request)
     return redirect('home')
+
+def loginapp(request):
+    return render(request, 'wallet.html', {'username':"Nitishrkt"})
+    # if request.method == 'POST':
+    #     userapp = request.POST['userapp']
+    #     userpass = request.POST['userpass']
+    #     user = authenticate(username = userapp, password = userpass)
+    #     if user is not None:
+    #         login(request, user)
+    #         return render(request, 'wallet.html', {'username':user})
