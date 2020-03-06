@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.contrib.auth.models import User
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login, logout
+from django.contrib import messages
 # Create your views here.
 def home(request):
     return render(request,'home.html')
@@ -20,10 +21,11 @@ def signup(request):
             user.first_name = fname
             user.last_name = lname
             user.save()
+            messages.success(request, "Sign Up successful")
             return render(request, 'home.html')
         else:
+            messages.danger(request, "Sign Up unsuccessful")
             return render(request, 'home.html')
-
 
 def loginpage(request):
     if request.method == 'POST':
