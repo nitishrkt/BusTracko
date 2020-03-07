@@ -3,6 +3,8 @@ from django.contrib.auth.models import User
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
+from .models import Wallet
+uservalue = ""
 # Create your views here.
 def home(request):
     return render(request,'home.html')
@@ -38,17 +40,33 @@ def loginpage(request):
         else:
             return redirect('home')
 
-
 def logoutpage(request):
     logout(request)
     return redirect('home')
 
+
+
+
+
 def loginapp(request):
-    return render(request, 'wallet.html', {'username':"Nitishrkt"})
-    # if request.method == 'POST':
-    #     userapp = request.POST['userapp']
-    #     userpass = request.POST['userpass']
-    #     user = authenticate(username = userapp, password = userpass)
-    #     if user is not None:
-    #         login(request, user)
-    #         return render(request, 'wallet.html', {'username':user})
+    if request.method == 'POST':
+        userapp = request.POST['userapp']
+        userpass = request.POST['userpass']
+        user = authenticate(username = userapp, password = userpass)
+        if user is not None:
+            usermoney = Wallet.objects.filter(username=user).values()
+            dictionary = usermoney[0]
+            userbal = dictionary['balance']
+            login(request, user)
+            return render(request, 'wallet.html', {'username':user,'balance':userbal})
+
+def AddMoney(request):
+    if request.method == 'POST':
+        money = request.POST['money']
+        uservalue="nitishrkt"
+        usermoney= Wallet.objects.filter(username__icontains=uservalue).values()
+        dictionary = usermoney[0] 
+        a = dictionary['balance']
+        final_money = a + int(money)
+        Wallet.objects.filter(username__icontains=uservalue).update(balance=final_money)
+        return render(request,'wallet.html',{'username':"nitishrkt",'balance':final_money})

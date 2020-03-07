@@ -23,6 +23,7 @@ urlpatterns = [
     path('signup/', views.signup, name='signup'),
     path('selectroute', views.loginpage, name='login'),
     path('logoutpage', views.logoutpage, name='logout'),
-    path('wallet',views.loginapp, name="loginapp")
+    path('wallet',views.loginapp, name="loginapp"),
+    path('walletupdate',views.AddMoney, name="addmoney")
 
 ]
