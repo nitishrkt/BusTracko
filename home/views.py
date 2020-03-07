@@ -4,10 +4,17 @@ from django.http import HttpResponse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from .models import Wallet
-uservalue = ""
+from geopy.geocoders import GoogleV3
+
+# geolocator = GoogleV3()
+# location = geolocator.geocode("kharar")
+# print(location.address)
+# print((location.latitude, location.longitude))
+
 # Create your views here.
 def home(request):
     return render(request,'home.html')
+
 
 def signup(request):
     if request.method == 'POST':
@@ -29,6 +36,7 @@ def signup(request):
             messages.danger(request, "Sign Up unsuccessful")
             return render(request, 'home.html')
 
+
 def loginpage(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -40,12 +48,10 @@ def loginpage(request):
         else:
             return redirect('home')
 
+
 def logoutpage(request):
     logout(request)
     return redirect('home')
-
-
-
 
 
 def loginapp(request):
@@ -60,6 +66,7 @@ def loginapp(request):
             login(request, user)
             return render(request, 'wallet.html', {'username':user,'balance':userbal})
 
+
 def AddMoney(request):
     if request.method == 'POST':
         money = request.POST['money']
@@ -70,3 +77,7 @@ def AddMoney(request):
         final_money = a + int(money)
         Wallet.objects.filter(username__icontains=uservalue).update(balance=final_money)
         return render(request,'wallet.html',{'username':"nitishrkt",'balance':final_money})
+
+
+def MoneyDeduct(request):
+    pass
